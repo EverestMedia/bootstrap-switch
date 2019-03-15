@@ -1,12 +1,15 @@
 import {
   Component, Input, ElementRef, Output, EventEmitter, OnChanges, SimpleChange, ViewChild, Renderer, AfterViewInit, AfterViewChecked,
+  ViewEncapsulation
+} from '@angular/core';
+
+import {
   trigger,
   state,
   style,
   transition,
   animate,
-  ViewEncapsulation
-} from '@angular/core';
+} from '@angular/animations';
 
 @Component({
   encapsulation: ViewEncapsulation.None,
