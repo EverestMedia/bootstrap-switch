@@ -78,7 +78,6 @@ import {
    -moz-box-sizing: border-box;
    box-sizing: border-box;
    cursor: pointer;
-   display: inline-block !important;
    height: 100%;
    padding: 6px 12px;
    font-size: 14px;
